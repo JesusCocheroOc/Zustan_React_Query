@@ -12,8 +12,6 @@ function App() {
         return <h1>Loading...</h1>;
     }
 
-    console.log(data);
-
     return (
         <div>
             {data?.map((repo) => (
